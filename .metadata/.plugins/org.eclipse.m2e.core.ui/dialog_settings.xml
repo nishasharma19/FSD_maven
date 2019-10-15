@@ -25,6 +25,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.myCompany.hibernate_mapping"/>
 			<item value="com.myCompany.hibernate_crud_demo"/>
 			<item value="com.myCompany.hibernate_demo"/>
 			<item value="org.customer.module"/>
@@ -33,6 +34,7 @@
 			<item value="com.myCompany"/>
 		</list>
 		<list key="artifactId">
+			<item value="hibernate_mapping"/>
 			<item value="hibernate_crud_demo"/>
 			<item value="hibernate-demo"/>
 			<item value="customer-module"/>
