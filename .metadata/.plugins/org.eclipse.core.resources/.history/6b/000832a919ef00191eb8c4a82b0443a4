@@ -1,0 +1,7 @@
+package com.myCompany.hibernate_crud_demo.dao;
+
+import com.myCompany.hibernate_crud_demo.shared.SharedEmployee;
+
+public interface EmployeeDAO {
+	public void createEmployee(SharedEmployee sEmployee);
+}

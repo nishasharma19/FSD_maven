@@ -1,0 +1,32 @@
+package com.myCompany.hibernate_crud_demo;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.myCompany.hibernate_crud_demo.model.Employee;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+		try {
+			SessionFactory factory = new Configuration().configure().addAnnotatedClass(Employee.class)
+					.buildSessionFactory();
+			Session session = factory.getCurrentSession();
+			Employee employee = new Employee();
+			employee.setFirstName("John");
+			employee.setLastName("dee");
+			employee.setEmail("john@luv2code.com");
+			session.getTransaction().begin();
+			session.persist(employee);
+			session.getTransaction().commit();
+			System.out.println("success");
+
+		} catch (Exception e) {
+
+		}
+	}
+}

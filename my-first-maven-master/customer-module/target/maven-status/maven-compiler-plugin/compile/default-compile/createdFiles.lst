@@ -1,0 +1,5 @@
+org\customer\module\App.class
+org\customer\module\connection\hbsql\myHbsqlConnection.class
+org\customer\module\factory\CustomerFactoryImpl.class
+org\customer\module\Customer.class
+org\customer\module\factory\customerFactory.class

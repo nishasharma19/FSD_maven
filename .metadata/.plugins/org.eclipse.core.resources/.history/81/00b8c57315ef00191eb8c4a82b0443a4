@@ -1,0 +1,5 @@
+package com.myCompany.hibernate_crud_demo.dao;
+
+public class EmployeeDAO {
+
+}

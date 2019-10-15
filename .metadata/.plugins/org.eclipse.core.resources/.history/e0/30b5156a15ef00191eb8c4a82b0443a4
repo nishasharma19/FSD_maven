@@ -1,0 +1,16 @@
+package com.myCompany.hibernate_crud_demo.factory;
+
+import org.hibernate.*;
+import org.hibernate.cfg.Configuration;
+
+import com.myCompany.hibernate_crud_demo.model.Employee;
+
+public class MyHibernateFactory {
+private static SessionFactory factory;
+private static Session session;
+public static sessoin getMySession() {
+	factory = new Configuration().addAnnotatedClass(Employee.class).buildSessionFactory();
+	session=factory.getCurrentSession();
+	return session;
+}
+}

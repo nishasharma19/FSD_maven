@@ -1,0 +1,39 @@
+package org.customer.module.factory;
+
+import java.sql.*;
+import java.util.List;
+
+import org.customer.module.Customer;
+import org.customer.module.connection.hbsql.myHbsqlConnection;
+
+public class CustomerFactoryImpl implements customerFactory {
+	private Connection connection=null;
+	private PreparedStatement pStatement=null;
+	private Statement statement = null;
+	public CustomerFactoryImpl() {
+		super();
+		try {
+			connection=myHbsqlConnection.getMyConnection();
+			
+		}catch(SQLException e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+	public Customer createCustomer(int id, String name, String email) {
+		// TODO Auto-generated method stub
+		try {
+			pStatement=connection.prepareStatement("insert into Customer values(?,?,?)");
+		}catch(SQLException e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+	public List<Customer> getAllCustomer() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

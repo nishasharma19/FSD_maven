@@ -1,0 +1,27 @@
+package com.myCompany.hibernate_demo.entity;
+
+import java.io.Serializable;
+
+
+
+@Data
+@Entity
+@Table(name = "student")
+public class student implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5573467667702441271L;
+	@Id
+	@Column(name = "id")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	@Column(name = "first_name")
+	private String firstName;
+	@Column(name = "last_name")
+	private String lastName;
+	@Column(name = "email")
+	private String email;
+
+}
