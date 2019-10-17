@@ -25,6 +25,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.myCompany.hibernate_inheritance"/>
 			<item value="com.myCompany.hibernate_mapping"/>
 			<item value="com.myCompany.hibernate_crud_demo"/>
 			<item value="com.myCompany.hibernate_demo"/>
@@ -34,6 +35,7 @@
 			<item value="com.myCompany"/>
 		</list>
 		<list key="artifactId">
+			<item value="hibernate_inheritance"/>
 			<item value="hibernate_mapping"/>
 			<item value="hibernate_crud_demo"/>
 			<item value="hibernate-demo"/>
@@ -77,6 +79,19 @@
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
 			<item value="customer-module"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\eclipse-workspace\hibernate_many_to_many"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

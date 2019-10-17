@@ -19,12 +19,12 @@ public class App
     	  
    	   Session session=factory.getCurrentSession();
         Details d = new Details();
-        d.setYoutube("http://youtube.com/homie");
-        d.setTwitter("http://twitter.com/homie");
+        d.setYoutubeChannel("http://youtube.com/homie");
+        d.setHobby("http://twitter.com/homie");
         Instructor i = new Instructor();
-        i.setFirstName("Ashik");
-        i.setLastName("K");
-        i.setEmail("ashbro@gmail.com");
+        i.setFirstName("Nisha ");
+        i.setLastName("Sharma");
+        i.setEmail("nish@gmail.com");
         i.setDetails(d);
         session.getTransaction().begin();
         session.persist(d);
