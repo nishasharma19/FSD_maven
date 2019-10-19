@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\eclipse-workspace\soccer-league"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,21 +26,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.myCompany.hibernate_inheritance"/>
-			<item value="com.myCompany.hibernate_mapping"/>
-			<item value="com.myCompany.hibernate_crud_demo"/>
-			<item value="com.myCompany.hibernate_demo"/>
-			<item value="org.customer.module"/>
+			<item value="com.mycompany.jsp_demo"/>
 		</list>
 		<list key="groupId">
-			<item value="com.myCompany"/>
+			<item value="com.mycompany"/>
 		</list>
 		<list key="artifactId">
-			<item value="hibernate_inheritance"/>
-			<item value="hibernate_mapping"/>
-			<item value="hibernate_crud_demo"/>
-			<item value="hibernate-demo"/>
-			<item value="customer-module"/>
+			<item value="jsp-demo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -91,6 +84,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\eclipse-workspace\soccer-league"/>
 			<item value="E:\eclipse-workspace\hibernate_many_to_many"/>
 		</list>
 		<list key="projectNameTemplate">
