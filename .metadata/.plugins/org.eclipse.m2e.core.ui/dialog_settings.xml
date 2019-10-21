@@ -84,6 +84,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\eclipse-Examples\soccer-league"/>
+			<item value="E:\eclipse-workspace"/>
 			<item value="E:\eclipse-workspace\soccer-league"/>
 			<item value="E:\eclipse-workspace\hibernate_many_to_many"/>
 		</list>
