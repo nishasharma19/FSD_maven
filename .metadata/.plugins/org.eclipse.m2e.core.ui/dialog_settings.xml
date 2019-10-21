@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\eclipse-workspace\test"/>
+			<item value="E:\eclipse-workspace\"/>
 			<item value="E:\eclipse-workspace\soccer-league"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,13 +28,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.mycompany.jsp_demo"/>
+			<item value="com.mycompany.my_crm_crud"/>
 		</list>
 		<list key="groupId">
 			<item value="com.mycompany"/>
 		</list>
 		<list key="artifactId">
-			<item value="jsp-demo"/>
+			<item value="my-crm-crud"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -97,5 +99,11 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="560"/>
+		<item key="y" value="76"/>
 	</section>
 </section>

@@ -1,5 +1,0 @@
-package org.customer.module.connection.hbsql;
-
-public class myHbsqlConnection {
-
-}

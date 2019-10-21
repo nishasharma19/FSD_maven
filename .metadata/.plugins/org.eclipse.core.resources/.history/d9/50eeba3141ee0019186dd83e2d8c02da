@@ -1,7 +1,0 @@
-package org.customer.module;
-
-public class Customer {
-
-	private int id;
-
-}
