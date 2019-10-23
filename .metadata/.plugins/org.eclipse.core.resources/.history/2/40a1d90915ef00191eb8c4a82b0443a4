@@ -1,5 +1,0 @@
-package com.myCompany.hibernate_crud_demo.factory;
-
-public class MyHibernateFactory {
-
-}

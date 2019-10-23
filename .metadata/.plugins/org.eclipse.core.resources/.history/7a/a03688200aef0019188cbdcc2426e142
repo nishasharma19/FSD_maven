@@ -1,7 +1,0 @@
-package com.myCompany.hibernate_crud_demo.model;
-
-import java.io.Serializable;
-
-public class Employee implements Serializable {
-
-}

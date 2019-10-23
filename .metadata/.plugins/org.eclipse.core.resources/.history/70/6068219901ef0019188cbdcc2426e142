@@ -1,7 +1,0 @@
-package com.myCompany.hibernate_demo.entity;
-
-import java.io.Serializable;
-
-public class student implements Serializable {
-
-}

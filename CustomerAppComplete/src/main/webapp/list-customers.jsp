@@ -18,26 +18,28 @@
 <body>
 
 	<div class="container">
-		<h2>CRM/Customer Management Systems</h2>
+		<h1>CRM/Customer Management Systems</h1>
 
+		<br>
+		<div class="row ">
+			<div class="col-6">
+				<input type="button" value="Add Customer"
+					onclick="window.location.href='customer-form.jsp'; return false;"
+					class="btn btn-primary btn-lg" />
+			</div>
+			<div class="col-6">
+				<form action="search.do" class="form-inline">
 
-		<div id="content">
-
-			<!-- put new button: Add Customer -->
-
-			<input type="button" value="Add Customer"
-				onclick="window.location.href='customer-form.jsp'; return false;"
-				class="btn btn-primary btn-md" />
+					<input name="search" type="text" class="form-control" />
+					<button class="btn btn-primary">SEARCH</button>
+				</form>
+			</div>
 
 		</div>
-		<div>
-			<form action="search.do">
-
-				<input name="search" type="text" />
-				<input type="submit"
-					value="search" class="btn btn-primary">
-			</form>
-		</div>
+		<br>
+		<button class="btn btn-primary btn-sm" href="">Sort by Ascending</button>
+		<button class="btn btn-primary btn-sm">Sort by Ascending</button>
+		<br> <br>
 
 		<table class="table table-striped">
 			<thead>
@@ -64,11 +66,10 @@
 						<td>${tempCustomer.firstName}</td>
 						<td>${tempCustomer.lastName}</td>
 						<td>${tempCustomer.email}</td>
-						<td><a href="${updateLink}" class="btn btn-success btn-md">Update</a> <a
-							href="${deleteLink}"
-							onclick="if (!(confirm('Are you sure you want to delete this customer?'))) return false" class="btn btn-danger btn-md">Delete</a>
-
-						</td>
+						<td><a href="${updateLink}" class="btn btn-success btn-md">Update</a>
+							<a href="${deleteLink}"
+							onclick="if (!(confirm('Are you sure you want to delete this customer?'))) return false"
+							class="btn btn-danger btn-md">Delete</a></td>
 					</tr>
 				</c:forEach>
 			</tbody>

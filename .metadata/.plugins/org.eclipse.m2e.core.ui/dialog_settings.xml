@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\eclipse-workspace\CustomerAppComplete\src\main\webapp\WEB-INF\web.xml"/>
 			<item value="E:\eclipse-workspace\test"/>
 			<item value="E:\eclipse-workspace\"/>
 			<item value="E:\eclipse-workspace\soccer-league"/>
@@ -28,12 +29,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.mycompany.ShoppingCart"/>
+			<item value="com.mycompany.servlet_contextDemo"/>
+			<item value="com.mycompany.CustomerAppComplete"/>
 			<item value="com.mycompany.my_crm_crud"/>
 		</list>
 		<list key="groupId">
 			<item value="com.mycompany"/>
 		</list>
 		<list key="artifactId">
+			<item value="ShoppingCart"/>
+			<item value="servlet-contextDemo"/>
+			<item value="CustomerAppComplete"/>
 			<item value="my-crm-crud"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -86,6 +93,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\eclipse-workspace\filter-demo"/>
 			<item value="E:\eclipse-workspace\my-crud-demo"/>
 			<item value="E:\eclipse-Examples\soccer-league"/>
 			<item value="E:\eclipse-workspace"/>

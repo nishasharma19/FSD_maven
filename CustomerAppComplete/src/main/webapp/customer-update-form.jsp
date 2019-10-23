@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	
+	<div class="container"> 
 	<div id="wrapper">
 		<div id="header">
 			<h2>CRM - Customer Relationship Manager</h2>
@@ -84,7 +84,7 @@
 		</p>
 	
 	</div>
-
+</div>
 </body>
 
 </html>
