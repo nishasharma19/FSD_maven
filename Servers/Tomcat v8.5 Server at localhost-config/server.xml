@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="my-crm-crud" path="/my-crm-crud" reloadable="true" source="org.eclipse.jst.j2ee.server:my-crm-crud"/><Context docBase="servlet-contextDemo" path="/servlet-contextDemo" reloadable="true" source="org.eclipse.jst.jee.server:servlet-contextDemo"/><Context docBase="ShoppingCart" path="/ShoppingCart" reloadable="true" source="org.eclipse.jst.jee.server:ShoppingCart"/><Context docBase="filter-demo" path="/filter-demo" reloadable="true" source="org.eclipse.jst.jee.server:filter-demo"/></Host>
+      <Context docBase="my-crm-crud" path="/my-crm-crud" reloadable="true" source="org.eclipse.jst.j2ee.server:my-crm-crud"/><Context docBase="servlet-contextDemo" path="/servlet-contextDemo" reloadable="true" source="org.eclipse.jst.jee.server:servlet-contextDemo"/><Context docBase="ShoppingCart" path="/ShoppingCart" reloadable="true" source="org.eclipse.jst.jee.server:ShoppingCart"/><Context docBase="filter-demo" path="/filter-demo" reloadable="true" source="org.eclipse.jst.jee.server:filter-demo"/><Context docBase="session-demo" path="/session-demo" reloadable="true" source="org.eclipse.jst.jee.server:session-demo"/></Host>
     </Engine>
   </Service>
 </Server>

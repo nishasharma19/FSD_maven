@@ -29,8 +29,8 @@ public class ToDoFilter implements Filter {
 			chain.doFilter(request, response);
 		}
 		else
-		{	
-			httpRequest.getRequestDispatcher("login.jsp").forward(request, response);
+		{
+			httpRequest.getRequestDispatcher("login.do").forward(request, response);
 		}
 		
 		
