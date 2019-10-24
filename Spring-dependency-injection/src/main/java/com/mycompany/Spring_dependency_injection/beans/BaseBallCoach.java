@@ -1,5 +1,8 @@
 package com.mycompany.Spring_dependency_injection.beans;
 
+import lombok.Setter;
+
+@Setter
 public class BaseBallCoach implements Coach {
 	private Fortune fortune;
 	
