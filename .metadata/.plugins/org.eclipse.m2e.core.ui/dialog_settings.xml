@@ -29,6 +29,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.mycompany.spring_dependency_annotations"/>
+			<item value="com.mycompany.Spring_JDBC_dl_Demo"/>
+			<item value="com.mycompany.Spring_dependency_injection"/>
 			<item value="com.mycompany.Spring_hello_world"/>
 			<item value="com.mycompany.ShoppingCart"/>
 			<item value="com.mycompany.servlet_contextDemo"/>
@@ -39,6 +42,9 @@
 			<item value="com.mycompany"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring-dependency-annotations"/>
+			<item value="Spring-JDBC-dl-Demo"/>
+			<item value="Spring-dependency-injection"/>
 			<item value="Spring-hello-world"/>
 			<item value="ShoppingCart"/>
 			<item value="servlet-contextDemo"/>
@@ -95,6 +101,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\eclipse-workspace\Spring-dependency-injection-annotation"/>
 			<item value="E:\eclipse-workspace\spring-helloworldDemo"/>
 			<item value="E:\eclipse-workspace\jsp-usebean"/>
 			<item value="E:\eclipse-workspace\session-demo"/>

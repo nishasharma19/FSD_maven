@@ -9,7 +9,9 @@ import java.util.List;
 
 import javax.sql.DataSource;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
 
 import comm.example.model.Customer;
 import lombok.AllArgsConstructor;
@@ -19,7 +21,9 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Setter
+@Component
 public class CustomerDAOImpl implements CustomerDAO {
+	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
 	@Override

@@ -3,4 +3,13 @@
 <typeInfo handle="=hibernate-demo/C:\/Program Files\/Java\/jdk1.8.0_191\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1561969076299"/>
 <typeInfo handle="=crm-crud/src\/main\/java&lt;comm.example.controller{ListCustomerController.java[ListCustomerController" modifiers="1" timestamp="1571633417841"/>
 <typeInfo handle="=Spring-hello-world/src\/main\/java&lt;comm.example{Coach.java[Coach" modifiers="513" timestamp="1571824782564"/>
+<typeInfo handle="=Spring-dependency-injection/C:\/Users\/b8ibmjava32\/.m2\/repository\/org\/springframework\/spring-context\/5.2.0.RELEASE\/spring-context-5.2.0.RELEASE.jar&lt;org.springframework.format(FormatterRegistrar.class[FormatterRegistrar" modifiers="1537" timestamp="1571824292479"/>
+<typeInfo handle="=Spring-dependency-injection/src\/main\/java&lt;com.mycompany.Spring_dependency_injection.beans{Fortune.java[Fortune" modifiers="513" timestamp="1571889247419"/>
+<typeInfo handle="=Spring-dependency-injection/src\/main\/java&lt;com.mycompany.Spring_dependency_injection.beans{Coach.java[Coach" modifiers="513" timestamp="1571889235205"/>
+<typeInfo handle="=Spring-JDBC-dl-Demo/src\/main\/java&lt;comm.example.DAO{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1571910522965"/>
+<typeInfo handle="=Spring-JDBC-dl-Demo/C:\/Program Files\/Java\/jdk1.8.0_191\/jre\/lib\/rt.jar&lt;javax.swing.tree(RowMapper.class[RowMapper" modifiers="1537" timestamp="1561969076299"/>
+<typeInfo handle="=Spring-JDBC-dl-Demo/C:\/Users\/b8ibmjava32\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.2.0.RELEASE\/spring-jdbc-5.2.0.RELEASE.jar&lt;org.springframework.jdbc.core(RowMapper.class[RowMapper" modifiers="1537" timestamp="1571896534563"/>
+<typeInfo handle="=spring-dependency-annotations/src\/main\/java&lt;com.mycompany.spring_dependency_annotations.beans{Fortune.java[Fortune" modifiers="513" timestamp="1571915415886"/>
+<typeInfo handle="=spring-dependency-annotations/C:\/Program Files\/Java\/jdk1.8.0_191\/jre\/lib\/ext\/jfxrt.jar&lt;com.sun.javafx.webkit.theme(RenderThemeImpl$FormControl.class[FormControl" modifiers="1546" timestamp="1561969069235"/>
+<typeInfo handle="=spring-dependency-annotations/src\/main\/java&lt;com.mycompany.spring_dependency_annotations.beans{Coach.java[Coach" modifiers="513" timestamp="1571915377974"/>
 </typeInfoHistroy>

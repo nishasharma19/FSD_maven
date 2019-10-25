@@ -3,11 +3,13 @@ package com.mycompany.Spring_JDBC_dl_Demo;
 import java.util.Iterator;
 import java.util.List;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 
 import comm.example.DAO.CustomerDAO;
 import comm.example.DAO.CustomerDAOImpl;
+import comm.example.DAO.Jdbcconfig;
 import comm.example.model.Customer;
 
 /**
@@ -20,18 +22,20 @@ public class App
     {
     	try {
 
-			ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-			CustomerDAO customerDAO = context.getBean("customerDAO", CustomerDAOImpl.class);
+			AnnotationConfigApplicationContext context =  new AnnotationConfigApplicationContext(Jdbcconfig.class);
+			CustomerDAO customerDAO = context.getBean("customerDAOImpl", CustomerDAOImpl.class);
 
-//			customerDAO.cretaeCustomer(new Customer("Salman", "Zaidi", "salmanZai@hot.com"));
-//			System.out.println("ok!");
+			customerDAO.cretaeCustomer(new Customer("Krissann", "B", "krissy@hot.com"));
+			System.out.println("ok!");
 //			customerDAO.updateCustomer(new Customer("Chirs", "Jhon", "chirssy@gmail.com"));
 //			System.out.println("updated");
 			
-			List<Customer> list=customerDAO.getAllCustomer(); Iterator<Customer>
-			  i=list.iterator(); while(i.hasNext()) { Customer c=i.next();
-			  System.out.println(c.getFirstName()+" , "+c.getSecondName()+" , "+c.getEmail())
-			  ; }
+			List<Customer> list=customerDAO.getAllCustomer(); 
+			Iterator<Customer> i=list.iterator(); 
+			while(i.hasNext()) 
+			{ 
+				Customer c=i.next();
+			  System.out.println(c.getFirstName()+" , "+c.getSecondName()+" , "+c.getEmail()); }
 		
 		} catch (Exception e) {
 			e.printStackTrace();
