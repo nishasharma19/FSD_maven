@@ -26,6 +26,16 @@ public class CustomerDAOImpl implements CustomerDAO {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+	// when lombok is not used
+//	public CustomerDAOImpl() {
+//		super();
+//	}
+//	public CustomerDAOImpl(JdbcTemplate jdbcTemplate) {
+//		super();
+//		this.jdbcTemplate = jdbcTemplate;
+//	}
+//	
+
 	@Override
 	public void cretaeCustomer(Customer customer) {
 		jdbcTemplate.update("insert into customer(firstName,secondName,email) values (?,?,?)", customer.getFirstName(),
@@ -45,6 +55,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 		// TODO Auto-generated method stub
 		return jdbcTemplate.query("select firstName,secondName,email from customer", new CustomerMapper());
 	}
+
 //	private DataSource dataSource;
 //
 //	@Override

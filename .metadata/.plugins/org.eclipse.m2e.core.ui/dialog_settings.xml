@@ -29,6 +29,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.mycompany.spring_mvc"/>
+			<item value="com.mycompany.spring_hibernate_demo"/>
 			<item value="com.mycompany.spring_dependency_annotations"/>
 			<item value="com.mycompany.Spring_JDBC_dl_Demo"/>
 			<item value="com.mycompany.Spring_dependency_injection"/>
@@ -42,6 +44,8 @@
 			<item value="com.mycompany"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring-mvc"/>
+			<item value="spring-hibernate-demo"/>
 			<item value="spring-dependency-annotations"/>
 			<item value="Spring-JDBC-dl-Demo"/>
 			<item value="Spring-dependency-injection"/>

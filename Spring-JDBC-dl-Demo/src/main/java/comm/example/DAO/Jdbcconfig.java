@@ -11,6 +11,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+
 @Configuration
 @ComponentScan(basePackages = "comm.example")
 @PropertySource("classpath:jdbc.properties")
@@ -55,10 +57,16 @@ public class Jdbcconfig {
 	
 	
 	@Bean
-	public JdbcTemplate jdbcTemplate() throws IOException{
-		JdbcTemplate jdbcTemplate = new JdbcTemplate();
-        jdbcTemplate.setDataSource(dataSource());
-        return jdbcTemplate;
-		
+	public JdbcTemplate jdbcTemplate() {
+		JdbcTemplate jdbcTemplate=new JdbcTemplate(dataSource());
+		return jdbcTemplate;
 	}
+	@Bean
+	public CustomerDAO customerDao()
+	{
+		return new CustomerDAOImpl(jdbcTemplate());
+	}
+	
+
+
 }
