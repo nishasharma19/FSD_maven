@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springframework.ide.eclipse.beans.ui.wizards.newBeansConfig"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.jboss.tools.jst.web.ui.wizards.newfile.NewWebFileWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.jboss.tools.cdi.ui"/>
+			<item value="org.jboss.ide.eclipse.ui.wizards"/>
+			<item value="org.jboss.tools.jst.web"/>
 			<item value="org.jboss.tools.central.ui.wizard.category"/>
+			<item value="org.fusesource.ide.newwizards"/>
 			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
-			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+			<item value="org.eclipse.wst.web.ui"/>
+			<item value="org.eclipse.jst.ws.ui.new"/>
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">

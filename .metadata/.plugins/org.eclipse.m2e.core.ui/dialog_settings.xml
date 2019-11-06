@@ -15,6 +15,12 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+		<list key="projectNameCombo">
+			<item value="customer-springmvc-webapp"/>
+		</list>
+		<list key="packageCombo">
+			<item value="comm.example.springmvc"/>
+		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item key="catalog" value="All Catalogs"/>
@@ -29,6 +35,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.mycompany.spring_rest_application"/>
+			<item value="comm.example.springmvc"/>
 			<item value="com.mycompany.spring_mvc"/>
 			<item value="com.mycompany.spring_hibernate_demo"/>
 			<item value="com.mycompany.spring_dependency_annotations"/>
@@ -42,8 +50,11 @@
 		</list>
 		<list key="groupId">
 			<item value="com.mycompany"/>
+			<item value="comm.example.springmvc"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring-rest-application"/>
+			<item value="customer-springmvc-webapp"/>
 			<item value="spring-mvc"/>
 			<item value="spring-hibernate-demo"/>
 			<item value="spring-dependency-annotations"/>
@@ -105,6 +116,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\eclipse-workspace\to-do"/>
+			<item value="E:\eclipse-workspace\spring-rest-application"/>
+			<item value="E:\eclipse-workspace\spring-rest-application-h2"/>
 			<item value="E:\eclipse-workspace\Spring-dependency-injection-annotation"/>
 			<item value="E:\eclipse-workspace\spring-helloworldDemo"/>
 			<item value="E:\eclipse-workspace\jsp-usebean"/>
@@ -130,5 +144,7 @@
 		<item key="height" value="531"/>
 		<item key="x" value="560"/>
 		<item key="y" value="76"/>
+	</section>
+	<section name="org.jboss.tools.project.examples.stacksrequirements">
 	</section>
 </section>
