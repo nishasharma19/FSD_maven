@@ -11,7 +11,7 @@ public class DispatcherServletInitializer extends AbstractAnnotationConfigDispat
 
 
 	
-	@Override
+	/*@Override
 	public void onStartup(ServletContext servletContext) 
 	  throws ServletException {
 	  super.onStartup(servletContext);
@@ -19,7 +19,7 @@ public class DispatcherServletInitializer extends AbstractAnnotationConfigDispat
 	    .addServlet("h2-console", new WebServlet());
 	  servlet.setLoadOnStartup(2);
 	  servlet.addMapping("/console/*");
-	}
+	}*/
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
